@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Student Registration Form</title>
+</head>
+
+<body>
+
+<h1>Student Registration Form</h1>
+
+<form>
+<fieldset>
+
+ <legend>Personal Information</legend>
+ <label>Full Name:</label>
+<input type="text" placeholder="Enter your name">
+ <br><br>
+
+<label>Email:</label>
+<input type="email" placeholder="Enter email">
+<br><br>
+
+ <label>Password:</label>
+<input type="password">
+            <br><br>
+
+<label>Age:</label>
+ <input type="number">
+<br><br>
+
+<label>Date of Birth:</label>
+<input type="date">
+<br><br>
+
+<label>Gender:</label>
+
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+<br><br>
+
+<label>Skills:</label>
+
+<input type="checkbox"> HTML
+<input type="checkbox"> CSS
+<input type="checkbox"> Java
+<br><br>
+
+</fieldset>
+<br>
+
+<label>Select Course:</label>
+
+<select>
+
+<optgroup label="Computer Courses">
+<option>Web Development</option>
+<option>Python</option>
+</optgroup>
+
+<optgroup label="Design Courses">
+<option>UI Design</option>
+<option>Graphic Design</option>
+</optgroup>
+
+</select>
+
+<br><br>
+
+<label>Favorite Browser:</label>
+<input list="browsers">
+<datalist id="browsers">
+<option value="Chrome">
+<option value="Edge">
+<option value="Firefox">
+</datalist>
+
+<br><br>
+
+<label>Upload Resume:</label>
+<input type="file">
+
+<br><br>
+
+<label>Choose Color:</label>
+<input type="color">
+
+<br><br>
+
+<label>Rate Your Coding Skill:</label>
+<input type="range">
+
+<br><br>
+
+<label>Address:</label>
+<br>
+
+<textarea rows="5" cols="30"></textarea>
+
+<br><br>
+
+<button type="submit">Submit Form</button>
+
+<button type="reset">Reset</button>
+
+<br><br>
+
+<output>Form Ready to Submit</output>
+
+</form>
+
+</body>
+</html>

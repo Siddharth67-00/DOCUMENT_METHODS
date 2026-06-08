@@ -1,64 +1,79 @@
-<!DOCTYPE html
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-<title> Attributes </title>
+<title>HTML Attributes</title>
 </head>
 
-<body> 
+<body>
 
-<p id="siddhart" class="third" style="color:blue"  tabindex="6767"  lang="eng"  >this is global attribute </p>
+<h1 id="heading" class="title" style="color:blue;"  title="My Heading" dir="ltr"  tabindex="1"  contenteditable="true"> HTML Attributes </h1>
+
+<br>
+
+<h2>Anchor Tag</h2>
+<a href="https://www.google.com" target="_blank"  title="Open Google"  rel="noopener" download> Go to Google </a>
 
 <br><br>
 
-<a href="https://google.com"> this is anchor tag </a> <p style="color:red"> 
+<h2>Image Tag</h2>
+<img src="https://picsum.photos/300" alt="Random Image" width="300"  height="200" title="Sample Image" >
 
 <br><br>
 
-<img src="https://cdn.prod.website-files.com/67cac9d84c7c5d94b6a4253b/68beb241260777a3c3310243_644252792e5573b1d71cddec_GitHub-logo.png" alt="image did not appear" height="400" widtn="400" ><p style="color:green"> this is image tag</p> 
+<h2>Form</h2>
+<form action="#" method="post" autocomplete="on">
+
+Name:
+<input type="text" name="name" placeholder="Enter your name" minlength="2" maxlength="20" required autofocus>
 
 <br><br>
 
-<p style="color:yellow"> this is input attribute</p>
-<br>
-<input type="text" placeholder="enter your name" minlength="2" maxlength="30" required>
-<br>
-<input type="tel" placeholder="phone number" min="10" required> 
-<br>
-<input type="email" placeholder="enter your email" maxlegth="35">
-<br>
-<input type="date">
-<br>
-<input type="radio" name="gender"> Male
+Email:
+<input type="email" placeholder="Enter email">
+
+<br><br>
+
+Password:
+<input type="password" minlength="9">
+
+<br><br>
+
+Age:
+<input type="number" min="18" max="60">
+
+<br><br>
+
+Phone:
+<input type="tel" pattern="[0-9]{10}">
+
+<br><br>
+
+Gender:
+<input type="radio" name="gender" checked> Male
 <input type="radio" name="gender"> Female
-<br>
-<input type="file">
-<br>
-<input type="color">
-<br>
-<input type="password" min="9">
-<br>
-<input type="url" maxlength="6000">
-<br>
-<input type="checkbox"> HTML
+
+<br><br>
+
+Skills:
+<input type="checkbox" checked> HTML
 <input type="checkbox"> CSS
-<input type="checkbox"> Java
-<br>
 
+<br><br>
+
+Favourite Color:
+<input type="color">
+
+<br><br>
+
+Upload File:
+<input type="file" accept= "image/*">
+
+<br><br>
+
+Website:
+<input type="url">
+
+</form>
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
