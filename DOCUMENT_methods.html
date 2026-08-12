@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body> 
+
+ <!-- DOCUMENT is a built-in javascript object that represents the HTML page current;y loaded in the browser 
+     it allows JS to access , change, add or remove HTML elements -->
+
+
+    <!-- METHODS OF DOCUMENT-->
+
+<!--getElementbyid--> 
+ <h1 id ="title" >  Hello </h1>
+
+<!-- getElementByClassName-->
+ <p calss = "text"> hello </p>
+ <p class="text"> world</p>
+
+ <!-- getElementByTag-->
+  <p> one </p>
+  <p> two </p>
+
+  <!-- querySelector() , allows to access id, class and tag -->
+<h2 id = "title"> querySelector using id </h2>
+<h3 class= "class1"> querySelector using class </h3>
+<h4> querySelector using tag name</h4>
+
+
+<div id = "container"> </div>
+
+    <script>
+
+        // METHODS OF DOCUMENT 
+
+        // getElementbyid - selects an element using its id
+        const c = document.getElementById("title");
+        c.textContent="hello sid"
+        console.log(c);
+        
+
+        // getElementByClassName - selects an element using its class
+        const c1 = document.getElementsByClassName("text");
+        console.log(c1);
+        
+
+        //  getElementByTag - selects an element using its tag name
+        const c2 = document.getElementsByTagName("p");
+        console.log(c2);
+        
+
+        //querySelector() - selects the first matching element if there are multiple same elements
+         const c3 = document.querySelector("#title");
+         console.log(c3);
+         
+
+         // querySelectorAll - selects all matching elements
+         const c4 = document.querySelectorAll("#title")
+         console.log(c4);
+
+         // createElement - creates new element in HTML
+         const c5 = document.createElement("p");
+         c5.textContent = "this is new paragraph";
+         document.getElementById("container").appendChild(c5);
+         console.log(c5);
+         
+         
+         
+     
+
+
+    </script>
+</body>
+</html>
