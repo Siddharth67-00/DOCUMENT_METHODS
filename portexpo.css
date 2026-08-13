@@ -1,0 +1,15 @@
+        
+        .textcolor1{
+            color:green;
+        }
+        .textcolor2{
+            color:brown;
+        }
+
+        div .h1,#p,h5{
+            color:red;
+        }
+        img{
+            border-radius:60%;
+        }
+        
